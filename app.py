@@ -27,7 +27,7 @@ kernel.add_service(
 )
 
 # Load plugins
-plugin_directory = r"C:/Users/ujjjain/OneDrive - Publicis Groupe/projects/FileQuest/Semantic Kernel/python/New/MA/prompt_template_samples"
+plugin_directory = r"./prompt_template_samples"
 
 fun_plugin = kernel.add_plugin(parent_directory=plugin_directory, plugin_name="FunPlugin")
 chat_plugin = kernel.add_plugin(parent_directory=plugin_directory, plugin_name="ChatPlugin")
